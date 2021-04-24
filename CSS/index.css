@@ -1,28 +1,40 @@
-.logo{
+
+header {
     background-color: white;
-    background-image: url("../images/logo.png");
-    padding: 1%;
-}
-.primary-nav{
-    width: auto;
-    margin: auto;
-    border: 3px solid white;
+    padding: 15px;
+  }
+  header ul {
     float: right;
+    color: #288D85;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+.heroImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 10px;
+     grid-template-areas:
+      ". .";
+    justify-content: reverse space-evenly;
+      
 }
 
-.contentleft{
-    max-width: 50%;
-}
-.Profile Picture{
-    position: right;
+
     
 
-}
-.skillslist{
-    display: inline-flex;
-    justify-content: start;
-   
-}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . .";
+  }
 .p{
     width: 500px;
     margin: 0 auto;
@@ -81,8 +93,11 @@ color: #288D85;
 
 
 .footer{
-    display:  block;
-    background-color:
-    #B9D9B4;
+    background-color:#B9D9B4;
+    padding: 5px;
+    color: black;
+    text-align: center;
 
 }
+
+
