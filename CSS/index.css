@@ -1,6 +1,6 @@
 
 header {
-    background-color: white;
+    background-color:#B9D9B4;
     padding: 15px;
   }
   header ul {
@@ -35,28 +35,21 @@ header {
     grid-template-areas:
       ". . .";
   }
-.p{
-    width: 500px;
-    margin: 0 auto;
+p{
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: -0.02em;
+    font-weight:700;
 
 }
-.h2{
+h2{
 font-family: 'Libre Caslon Text', serif;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
-line-height: 30px;
-letter-spacing: -0.02em;
+
 
 color: #288D85;
 }
-.p3{
+p3 {
     position: absolute;
     width: 114px;
     height: 48px;
@@ -74,12 +67,8 @@ color: #288D85;
 }
 
 
-.h1{
-    position: absolute;
-    width: 576px;
-    height: 126px;
-    left: 175px;
-    top: 238px;
+h1{
+   
     
     font-family: Libre Caslon Text;
     font-style: normal;

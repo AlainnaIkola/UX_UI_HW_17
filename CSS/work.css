@@ -1,5 +1,5 @@
 header {
-    background-color: white;
+    background-color:#B9D9B4;
     padding: 15px;
   }
   header ul {
@@ -23,32 +23,27 @@ header {
 }
 
 
-.p{
-    width: 500px;
-    margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: -0.02em;
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
 }
-.h1{
-    position: absolute;
-    width: 576px;
-    height: 126px;
-    left: 175px;
-    top: 238px;
+h1{
+   
     
-    font-family: Libre Caslon Text;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 42px;
-    letter-spacing: -0.02em;
-    
-    color: #000000;}
+  font-family: Libre Caslon Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: -0.02em;
+  
+  color: #000000;}
 
+h4{
+  font-family: Libre Caslon Text;
+  color: #288D85;
+
+}
 
 button {
   padding: 15px;
@@ -58,7 +53,43 @@ button {
   border-radius: 4px;
 }
 
-
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #EBEBEB;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+  
+}
+.img1, .img2, .content1, .content2 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
 
 
 
