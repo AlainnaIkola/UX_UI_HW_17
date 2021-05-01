@@ -23,7 +23,17 @@ header {
 }
 
 
-    
+  .contentleft{
+    padding: 50px 25px 50px 100px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+  }  
+
+  .contentright{
+    margin: 50px 50px 50px 100px;
+  }
 
 
 
@@ -31,13 +41,19 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 0px 0px;
+    gap: 0px 0px 0px;
+    margin: 25px 100px 50px;
     grid-template-areas:
       ". . .";
+    
   }
+
+
 p{
-    font-family: 'Montserrat', sans-serif;
-    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
+    line-height: 30px;
+    font-size: 16px;
 
 }
 h2{
@@ -89,4 +105,39 @@ h1{
 
 }
 
+.accordion {
+  background-color:  #288D85;
+  ;
+  color: #ffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #B9D9B4;
+  color: #444;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
