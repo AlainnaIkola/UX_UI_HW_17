@@ -1,16 +1,24 @@
 
 header {
-    background-color:#B9D9B4;
-    padding: 15px;
-  }
-  header ul {
-    float: right;
-    color: #288D85;
-  }
-  header li {
-    display: inline-block;
-    padding: 0px 5px;
-  }
+  background-color: #B9D9B4;
+  padding: 10px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+
+
 .heroImg {
     display: grid;
     grid-template-columns: 1fr 1fr;
